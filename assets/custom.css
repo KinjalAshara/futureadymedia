@@ -23,7 +23,6 @@
     color: #fff;
 }
 
-
 .email-link 
 {
     text-decoration: none;
@@ -34,4 +33,60 @@
 {
     color: #c1440e;
 }
+
+
 /******************************* End of About us section *****************************/
+
+/******************************* Digital marketing section *************************************/
+
+.digital_marketing_section
+{
+    padding-top: 100px;
+}
+
+.digital_marketing_section .digital_marketing_title_wrapper
+{
+    text-align: center;
+}
+ 
+.digital_marketing_section .digital_marketing_title
+{
+    font-weight: 500;
+    margin-bottom: 60px;
+    line-height: 1.4;
+    font-size: 4vw;
+    color: #0d203a;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.digital_marketing_section .box_wrapper .box .box_icon
+{
+    width: 75px;
+    margin-bottom: 20px;
+}
+.digital_marketing_section .box_wrapper .box .box_title
+{
+    letter-spacing: .5px;
+    margin-bottom: 20px;
+    color: #0d203a;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.digital_marketing_section .box_wrapper .box .service-list
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 3px 0 15px 0;
+    list-style: none;
+    color: #0d203a;
+    letter-spacing: 1px;
+    font-size: 14px;
+    border-bottom: 1px solid #c8c8c8;
+    height: 10.5em;
+}
+
+
+/******************************* End of Digital marketing section ***************************/
+
