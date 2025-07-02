@@ -102,3 +102,65 @@
 
 /******************************* End of Digital marketing section ***************************/
 
+/******************************* Form section *************************************/
+
+.form_wrapper
+{
+    background-color: #0d203a;
+    color: #fff;
+}
+
+
+.form_wrapper .form_title
+{
+    font-size: 44px;
+    line-height: 1.4;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.form_wrapper .form_subtitle
+{
+    color: #fff;
+    font-size: 18px;
+    padding-right: 23px;
+    margin-bottom: 6em;
+    margin-top: 16px;
+}
+
+.form_wrapper .form_content_wrapper
+{
+    margin-top: 0 !important;
+}
+
+.form_wrapper .futuready_form
+{
+    padding-left: 0 !important;
+    margin-top: 0 !important;
+}
+
+.form_wrapper .futuready_label
+{
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.form_wrapper  .required::after 
+{
+    content: '*';
+    color: red;
+    margin-left: 1px;
+}
+
+.form_wrapper .form_button
+{
+    border-color: #FFFFFF;
+    color: #0d203a;
+    font-size: 13px;
+    line-height: 13px;
+    background-color: #FFFFFF;
+}
+/******************************* End of Form section ***************************/
+
