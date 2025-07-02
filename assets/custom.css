@@ -1,0 +1,37 @@
+/******************************* Navbar section *************************************/
+.navbar_section .navbar_wrapper
+{
+    padding: 10px 0;
+    background-color: #000;
+}
+
+.navbar_section .navbar_wrapper .nav_text
+{
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+
+/******************************* End of Navbar section *****************************/
+
+/******************************* About us section *************************************/
+
+.aboutus_section
+{
+    background-color: #0d203a;
+    padding: 150px 0;
+    color: #fff;
+}
+
+
+.email-link 
+{
+    text-decoration: none;
+    border-bottom: 1px solid #c1440e;
+    color: white;
+}
+.email-link:hover 
+{
+    color: #c1440e;
+}
+/******************************* End of About us section *****************************/
