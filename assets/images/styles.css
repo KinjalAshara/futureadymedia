@@ -1,0 +1,107 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.client {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.client-left {
+    flex: 1 1 300px;
+}
+
+.client-left h1 {
+    font-size: 60px;
+    color: #0c1f38;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+.client-right {
+    flex: 1 1 700px;
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.arrow {
+    position: absolute;
+    bottom: 10px;
+    background: none;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: #000;
+    z-index: 10;
+    padding: 10px;
+}
+
+.left {
+    right: 50px;
+}
+
+.right {
+    right: 10px;
+}
+
+.arrow:hover {
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .client-left h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .arrow {
+        font-size: 24px;
+        bottom: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .client-left h1 {
+        font-size: 32px;
+    }
+
+    .slide {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+}
